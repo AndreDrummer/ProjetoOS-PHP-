@@ -1,0 +1,87 @@
+form#formulario.form-contrl{
+  background-color: red;;
+}
+
+body, html {
+  background-color: #E8E8E8;
+}
+
+.backgroud {
+  background-image: url('../image/os.png');
+}
+
+@media only screen and (min-device-width: 400px) {
+  .backgroud {
+    background-image: url('../image/os.png');
+  }
+}
+
+.backgroud {
+  background-size: contain;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 100vh;  
+  background-attachment: scroll;
+}
+
+.backgroudIndex {
+  background-image: url('../image/index_back3.png');
+}
+
+.backgroudNewUser {
+  background-image: url('../image/newUser3.png');
+}
+
+.dashboard {
+  background-image: url('../image/laco.png');
+}
+
+footer a:hover {
+  color: #f8f9fa;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+footer a {
+  color: #f8f9fa;
+}
+
+.copy {  
+  background-color:#343a40;
+  color: #f8f9fa;
+}
+
+.rodape {
+  background-color: #6c757d;
+}
+
+footer li {
+  display: inline-block;
+  position: relative;
+  padding: 5px;
+  margin: 10px;
+}
+
+footer img { 
+  width: 40px;
+  height: 40px;
+}
+
+/*Botões*/
+
+.botaoNovo {
+  display: block;
+  position: relative;
+  margin-bottom: 10px;
+  left: 800px;
+}
+
+.scrolling {
+  max-height:400px;
+  overflow-y: auto;
+  border: none;
+}
+
+.textLeft {
+  text-align: left;
+}

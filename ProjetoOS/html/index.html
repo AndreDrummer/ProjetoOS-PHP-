@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!--Arquivos Bootstrap CSS-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!--FIm dos Arquivos Bootstrap CSS-->
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">  
+  <title>Pedido de OS</title>
+</head>
+<body>
+  <div class="container-fluid backgroud">
+    <div class="row justify-content-center">
+      <div class="col-sm-8" style="top: 60px; left: 5px;">
+          <form method="post" action="../php/index.php" id='formulario' class="form-control" style="opacity: 0.9">
+              <h3>Novo Pedido de OS</h3>
+              <div class="form-group">
+                <label for="assunto">Assunto</label>
+                <input name="assunto" type="text" class="form-control" id="assunto" placeholder="Assunto da OS">
+              </div>
+              <div class="form-group">
+                <label for="destiny">Destino</label>
+                <select name="destiny" class="form-control" id="destiny">
+                  <option value="Tasy - Jonas">Tasy - Jonas</option>              
+                  <option value="T.I - Maurício">T.I - Maurício</option>              
+                  <option value="Higienização - Vilma">Higienização - Vilma</option>              
+                  <option value="Almoxarifado - Kalikleiton">Almoxarifado - Kalikleiton</option>
+                </select>           
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="descricao" rows="5"></textarea>
+              </div>
+              <button type="submit" class="btn btn-outline-success">Enviar</button>
+              <a href="createUser.html">Novo Usuário</a>
+              
+            </form>
+      </div>
+    </div>
+  </div>
+  <footer class="page-footer font-small special-color-dark pt-4 rodape">
+    <!-- Footer Links -->
+  <div class="container text-center text-md-center">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-4 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Nos Encontre</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!"><img src="../image/logo insta.png" class="image-fluid"></a>
+          </li>
+          <li>
+            <a href="#!"><img src="../image/face logo.png" class="image-fluid"></a>
+          </li>
+          <li>
+            <a href="#!"><img src="../image/wpp logo.png" class="image-fluid"></a>
+          </li>
+          <li>
+            <a href="#!"><img src="../image/lk logo.png" class="image-fluid"></a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+            
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3 copy">&copy; 2019 Copyright
+    <a href="#"><b><em>Drummer Productions</em></b></a> All rigths reserved
+  </div>
+  <!-- Copyright -->
+  
+  </footer>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+</body>
+</html>
